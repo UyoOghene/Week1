@@ -1,0 +1,71 @@
+
+ /* Navbar */
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ nav li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+ nav li:last-child {
+    border-right: none;
+  }
+  
+ nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Gamesboxes */
+  .games {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+    
+  }
+
+  .gbox{
+    border: 2px solid black;
+    height: 30rem;
+    width: 23em ;
+  }
+  #cascade{
+    background-color: #2a4248;
+  }
+  .gbox h3{
+    align-self: center;
+  }
+
+  .gbox li{
+    display:grid;
+    list-style-type: none;
+    border-radius:5px ;
+    background-color: #bbb;
+    margin: 5px;
+    width: fit-content;
+    padding: 5px;
+ 
+  }
+  .gbox p{
+    margin-top: 10px;
+  }
+  
+
+  .games img{
+    height: 40%;
+    width: 100%;
+  }
+
