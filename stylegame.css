@@ -40,7 +40,6 @@
   }
 
   .gbox{
-    border: 2px solid black;
     height: 30rem;
     width: 23em ;
   }
@@ -52,15 +51,18 @@
   }
 
   .gbox li{
-    display:grid;
     list-style-type: none;
     border-radius:5px ;
     background-color: #bbb;
     margin: 5px;
     width: fit-content;
     padding: 5px;
- 
+    display: block;
+    color: white;
+    text-align: center;
   }
+ 
+  
   .gbox p{
     margin-top: 10px;
   }
