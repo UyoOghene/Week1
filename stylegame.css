@@ -1,23 +1,14 @@
 
  /* Navbar */
- nav{
-    background-color:#384c90 ;
+nav{
+    background-color:#17678e;
  }
+
  nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #384c90;
+    display: flex;  
   }
-  
- nav li {
-    float: left;
-  }
-  
- nav li:last-child {
-    border-right: none;
-  }
+    
   
  nav li a {
     display: block;
@@ -27,8 +18,23 @@
     text-decoration: none;
   }
 
+  /* languages list */
+  .g {
+    text-align: center;
+  }
+
+  .list{
+    display: flex;
+    text-align: center;
+  }
+
+  .languages li{
+    list-style-type:none;
+  }
+
   /* Gamesboxes */
   .games {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1em;
@@ -36,16 +42,20 @@
     width: auto;
     justify-items: center;
     align-items: center;
-    
   }
 
   .gbox{
     height: 30rem;
     width: 23em ;
   }
+  .gametxt {
+    display: flex;
+  }
+
   #cascade{
     background-color: #2a4248;
   }
+
   .gbox h3{
     align-self: center;
   }
