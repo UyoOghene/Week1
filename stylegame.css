@@ -6,7 +6,9 @@ a {
     color: white;
     text-decoration: none;
 }
-
+p {
+    color: white;
+}
  /* Navbar */
 nav{
     background-color:#17678e;
@@ -156,3 +158,44 @@ nav{
     height: 40%;
     width: 100%;
   }
+
+  /* Updates */
+
+  .updates {
+    background-color: #17678e;
+    height: 15em;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Footer */
+
+  .footr{
+    height: fit-content;
+    background-color: #112e51;
+  }
+  .foot {
+    color: white;
+  }
+
+  .footlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+  .footul{
+    list-style-type: none;
+  }
+  .footul li{
+    color: white;
+    padding: 10px;
+  }
+  .topic {
+    color: white;
+    margin: 10px;
+  }
+
+
