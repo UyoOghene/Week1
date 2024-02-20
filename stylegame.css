@@ -107,6 +107,7 @@ nav{
   .list{
     display: flex;
     text-align: center;
+
   }
 
   .languages li{
@@ -120,7 +121,6 @@ nav{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1em;
     row-gap: 1em;
-    width: auto;
     justify-items: center;
     align-items: center;
   }
@@ -128,37 +128,30 @@ nav{
   .gbox{
     height: 30rem;
     width: 23em ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   .gametxt {
     display: flex;
-  }
+    justify-content: center;
 
-  #cascade{
-    background-color: #2a4248;
   }
-
-  .gbox h3{
-    align-self: center;
+  .gtul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .gbox li{
     list-style-type: none;
     border-radius:5px ;
     background-color: #bbb;
-    margin: 5px;
-    width: fit-content;
+    margin: 2px;
     padding: 5px;
-    display: block;
     color: white;
-    text-align: center;
   }
  
-  
-  .gbox p{
-    margin-top: 10px;
-  }
-  
-
   .games img{
     height: 40%;
     width: 100%;
