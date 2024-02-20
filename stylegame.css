@@ -170,6 +170,20 @@ nav{
     justify-content: space-between;
   }
 
+  #g{
+    color: white;
+    border-radius: 2px;
+    width: 13rem;
+    height: 3rem;
+
+  }
+  #inp{
+    border-radius: 2px;
+    width: 13rem;
+    height: 3rem;
+  }
+
+
   /* Footer */
 
   .footr{
