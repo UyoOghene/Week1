@@ -1,25 +1,49 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 a {
     font-weight: bolder;
     color: white;
     text-decoration: none;
 }
+
 p {
     color: white;
 }
+
+ 
  /* Navbar */
-nav{
+ nav{
     background-color:#17678e;
  }
 
+ .navbar {
+    height: 4rem;
+    margin-top: 0;
+    padding-top: 0;
+      
+ }
+
+ #navlogo {
+    width: 50%;
+    height: 30%;
+ }
+
+ #logo {
+    width: 20%;
+    height: 30%;
+    margin: 5px;
+ }
+
  nav ul {
+    margin: 0;
     list-style-type: none;
     display: flex;  
   }
     
-  
  nav li a {
     display: block;
     color: white;
@@ -27,6 +51,7 @@ nav{
     padding: 14px 16px;
     text-decoration: none;
   }
+
 
   /* languages list */
   .g {
@@ -68,7 +93,6 @@ nav{
     padding: 10px;
     margin: 10px;
 
-
   }
   .alist {
     margin: 10px;
@@ -82,25 +106,7 @@ nav{
   }
 
 
- /* Navbar */
- nav{
-    background-color:#17678e;
- }
-
- nav ul {
-    list-style-type: none;
-    display: flex;  
-  }
-    
-  
- nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
+ 
   /* languages list */
   .g {
     text-align: center;
@@ -114,6 +120,17 @@ nav{
 
   .languages li{
     list-style-type:none;
+  }
+
+  .sh:hover {
+    background-color: #17678e;
+  }
+  .ls:hover {
+    background-color: #17678e;
+  }
+
+  .free :hover {
+    background-color: #17678e;
   }
 
   /* Gamesboxes */
@@ -130,14 +147,23 @@ nav{
   .gbox{
     height: 30rem;
     width: 23em ;
+    border-radius: 5px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
+  }
+  .gbox:hover {
+    transform: translateY(-5px);
+
   }
   .gametxt {
     display: flex;
     justify-content: center;
+  }
 
+  .gtxt h3 {
+    color:white ;
   }
   .gtul {
     display: flex;
@@ -157,6 +183,7 @@ nav{
   .games img{
     height: 40%;
     width: 100%;
+    border-radius: 5px;
   }
 
   /* Updates */
@@ -190,6 +217,7 @@ nav{
     height: fit-content;
     background-color: #112e51;
   }
+
   .foot {
     color: white;
   }
@@ -200,16 +228,103 @@ nav{
     justify-content: space-evenly;
 
   }
+
   .footul{
     list-style-type: none;
   }
+
+  .footul i{
+    padding: 1px;
+    margin: 1px;
+  }
+
   .footul li{
     color: white;
     padding: 10px;
   }
+
   .topic {
     color: white;
-    margin: 10px;
+    ;
   }
 
+
+/* Tablets and under */
+@media (max-width:768px) {
+  .gbox  {
+        width: 14em;
+        height: 20em;
+    }
+
+    .games{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    
+    }
+
+    .footlist{
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+        width: fit-content;
+    }
+
+    #navlogo img {
+        width: 5em;
+        height: 1.5em;
+     }
+
+     #nav{
+        width: 9em;
+     }
+
+     #nav a{
+        font-size: 0.7em ;
+
+     }
+     .list{
+        display: grid;
+     }
+
+}
+/* Mobile */
+@media (max-width:500px) {
+    .gbox  {
+        width: 14em;
+        height: 20em;
+    }
+
+    .games{
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-items: center;
+        align-items: center;
+    
+    }
+
+    .footlist{
+        display: grid;
+        grid-template-columns:1fr  ;
+        width: fit-content;
+    }
+
+    #navlogo img {
+        width: 5em;
+        height: 1.5em;
+     }
+
+     #nav{
+        width: 9em;
+     }
+
+     #nav a{
+        font-size: 0.7em ;
+
+     }
+     .list{
+        display: grid;
+     }
+  
+}
 
