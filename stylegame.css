@@ -210,6 +210,69 @@ p {
     height: 3rem;
   }
 
+  /* Login */
+  .formcard {
+    height: 30em;
+    width: 30em;
+    background-color:#ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+ .form{
+    background-color:#f5f7f9 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40em;
+    width: auto;
+    
+ }
+
+ .fm {
+    width: 100%;
+    height: 2.5em;
+    border-radius: 3px;
+    background-color:#e8f0fe ;
+    border: 1px solid #ced4da;
+    margin: 10px;
+ }
+
+ #check {
+    margin: 10px;
+ }
+
+ #rem {
+    margin: 10px;
+ }
+
+ #lost{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+ }
+
+ #lb{
+    margin-top: 10px;
+    width:100% ;
+    height: 3em;
+    background-color:#f3406a ;
+    text-align: center;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+ }
+
+ .dont{
+    text-align: center;
+ }
+
+  
+
 
   /* Footer */
 
@@ -276,7 +339,7 @@ p {
      }
 
      #nav{
-        width: 9em;
+        width: 10em;
      }
 
      #nav a{
@@ -315,7 +378,7 @@ p {
      }
 
      #nav{
-        width: 9em;
+        width: 10em;
      }
 
      #nav a{
