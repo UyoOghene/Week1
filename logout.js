@@ -1,9 +1,9 @@
-const logout = document.querySelector('#logoutb');
+// const logout = document.querySelector('#logoutb');
 
-console.log(logout);
+// console.log(logout);
 
-logout.addEventListener("click", e=> {
-    console.log('hi');
-    window.location.href = "./index.html";
+// logout.addEventListener("click", e=> {
+//     console.log('hi');
+//     window.location.href = "./index.html";
 
-})
+// })
