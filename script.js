@@ -1,8 +1,5 @@
 let form =document.querySelector('form');
 let logbutton = document.getElementById('logbutton');
-console.dir(logbutton);
-// const butt = document.getElementById('butt');
-// console.log(butt);
 
 // lb.addEventListener("click",(e)=>{
 //     e.preventDefault()
@@ -47,13 +44,16 @@ logbutton.addEventListener('click', isValid);
   function isValid(e) {
     console.log(form.username);
     let user = form.username.value;
+
     let pass = form.password.value;
+    let uname = document.getElementById('uname');
 
     if(user.length > 3 && pass.length > 4){
       window.location.href= './index2games.html';
+      localStorage.setItem("lastname", user);
 
     } else {
-      alert('wrong');
+      alert('username/password not long enough');
     }
 
   }
